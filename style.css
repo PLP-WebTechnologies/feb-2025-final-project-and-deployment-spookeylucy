@@ -1,0 +1,118 @@
+/* css/style.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #fff8f5;
+  color: #333;
+}
+
+header {
+  background: #ff69b4;
+  padding: 1em;
+  text-align: center;
+  color: white;
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 2em;
+  text-align: center;
+  background: #ffe4e1;
+}
+
+.featured-products {
+  padding: 2em;
+}
+
+.product-grid {
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-card {
+  background: #fff;
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 200px;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  margin-top: 0.5em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e75494;
+}
+
+
+/* Contact Page Styling */
+.contact-form-section {
+  max-width: 500px;
+  margin: 2em auto;
+  background: #fff;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.contact-form-section h2 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+form label {
+  display: block;
+  margin-top: 1em;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.75em;
+  margin-top: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+}
+
+form button {
+  margin-top: 1.5em;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  padding: 0.75em;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #e75494;
+}
